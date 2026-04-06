@@ -228,3 +228,6 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     target.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 });
+
+const el = document.getElementById('year');
+if (el) el.textContent = new Date().getFullYear();
