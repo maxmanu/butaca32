@@ -23,7 +23,7 @@ jobs:
           port: 21
           security: loose
           local-dir: ./
-          server-dir: /home/maxipetp/butaca32.com/
+          server-dir: ./butaca32.com/
           exclude: |
             **/.git*
             **/.git*/**
